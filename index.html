@@ -8,6 +8,7 @@
         section{
             width: 100vw;
             height: 100vh;
+            position: relative;
             background-color: lightblue;
         }
         section>div{
@@ -23,6 +24,16 @@
             top: 0;
             bottom: 0;
         }
+        section>h2{
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
         section:nth-child(2)>div{
             background-color: blue;
         }
@@ -32,6 +43,20 @@
         section:nth-child(4)>div{
             background-color: purple;
         }
+        section:first-child{
+            background-color: lightpink;
+        }
+        section:nth-child(2){
+            background-color: lightblue;
+        }
+        section:nth-child(3){
+            background-color: lightgreen;
+        }
+        section:nth-child(4){
+            background-color: plum;
+        }
+
+
     </style>
 </head>
 <body>
